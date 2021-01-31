@@ -32,30 +32,57 @@
        <TextView
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
-           android:text="C = "
+           android:text="C = ?"
            android:textColor="#ABB2B9"
            android:layout_toRightOf="@+id/img"
            android:layout_marginTop="30dp"
            android:layout_marginLeft="150dp">
        </TextView>
-   </RelativeLayout
+   </RelativeLayout>
 
-    <ImageView
-        android:layout_width="300dp"
-        android:layout_height="100dp"
-        android:background="@drawable/leg_a">
-    </ImageView>
-
-    <ImageView
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-    </ImageView>
 
-    <Button
-        android:layout_width="400dp"
-        android:layout_height="wrap_content"
-        android:text="SOLVE">
-    </Button>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/leg_a"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="  "
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:inputType="number"
+            android:hint="leg a">
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/leg_b"
+            android:textSize="20dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="  "
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:inputType="number"
+            android:hint="leg b">
+        </EditText>
+
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"
+            android:text="SOLVE">
+        </Button>
+    </RelativeLayout>
 
 
 

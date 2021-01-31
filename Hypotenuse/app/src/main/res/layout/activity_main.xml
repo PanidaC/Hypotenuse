@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pythagorean Theorem : solve for hypoten use"
+        android:textColor="#ABB2B9"
+        android:layout_gravity="center_horizontal">
+    </TextView>
+
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+       <ImageView
+           android:id="@+id/img"
+           android:layout_width="100dp"
+           android:layout_height="60dp"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="30dp"
+           android:background="@drawable/triangle">
+       </ImageView>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="C = "
+           android:textColor="#ABB2B9"
+           android:layout_toRightOf="@+id/img"
+           android:layout_marginTop="30dp"
+           android:layout_marginLeft="150dp">
+       </TextView>
+   </RelativeLayout
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@drawable/leg_a">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ImageView>
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="SOLVE">
+    </Button>
+
+
+
+</LinearLayout>
